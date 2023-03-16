@@ -19,7 +19,7 @@ dotenv.config()
 // }).catch((err)=>{
 //     console.log(err)
 // })
-mongoose.connect("mongodb+srv://shanuchaturvedi345:tDACDPbbGcuwaa35@cluster0.o5kdkye.mongodb.net/booking?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://:@cluster0.o5kdkye.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
     console.log("connected to database")
 }).catch((err)=>{
